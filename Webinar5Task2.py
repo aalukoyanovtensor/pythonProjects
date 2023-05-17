@@ -16,7 +16,7 @@ def repeats(our_str):
     new_str = ''
     for i in our_str:
         new_str += i + '_' + str(new_str.count(i)+1)
-        return new_str
+    return new_str
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
